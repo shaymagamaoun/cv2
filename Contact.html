@@ -1,0 +1,92 @@
+<!DOCTYPE html >
+<html>
+      
+      <head>
+            <meta charset="utf-8">
+            <title> Contact </title> 
+                  <link rel="stylesheet"  href="style.css" />
+      </head>
+      <script type="text/javascript">
+      function validate (){
+      if((document.getElementById('nom').value=="")||(document.getElementById('mail').value=="")||(document.getElementById('Telephone').value=="")||(document.getElementById('message').value=="")) {
+             alert('please enter the informations !');
+      }}
+</script>
+      <body>
+         <header>
+            <h1> Shayma Gamaoun </h1>
+            <h1><em>  étudiante en LFSI </em>  </h1>
+   <div>
+
+      
+<div class="dropdown"> <button class="dropbtn"><a href="index.html">Presentation</a>
+      </button>
+      <div class="dropdown-content">
+       <a href="#profil">Profil</a>
+       <a href="#Etat civil">Etat civil</a>
+       <a href="#Adresse">Adresse</a>
+     </div></div>
+            <div class="dropdown"><button class="dropbtn"><a href="Formation.html">Formation</a></button>
+              <div class="dropdown-content">
+       <a href="#Education">Education</a>
+       <a href="#Formation">Formation </a>
+     
+             </div></div>
+            <div class="dropdown"><button class="dropbtn"><a href="Experiences.html">Experience</a></button>
+                   <div class="dropdown-content">
+       <a href="#les expériences">les expériences </a>
+       
+                  </div></div>
+             <div class="dropdown"><button class="dropbtn"><a href="Compétences.html">Compétences</a></button>
+                    <div class="dropdown-content">
+       <a href="#les compétences">les compétences </a>
+    
+                   </div></div>
+         <div class="dropdown">  <button class="dropbtn"> <a href="Divers.html">Divers</a> </button>
+                  <div class="dropdown-content">
+       <a href="#Langues">Langues</a>
+       <a href="#expériences bénévoles">expériences bénévoles</a>
+       <a href="#loisirs">loisirs </a>
+                 </div></div>
+            <div class="dropdown">  <button class="dropbtn"><a href="Contact.html">Contact </a></button>
+       
+      </div>
+      
+      
+      
+</header>
+<form autocomplete="off" action="#" id="contact" onsubmit="return validateForm()">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Nom et prénom (En MAJUSCULE)*</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Entrer votre nom et prénom"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail*</label></td>
+                    <td><input type="text" name="email" id="email" placeholder="Entrer votre email"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Téléphone*</label></td>
+                    <td><input type="text" name="mobile" id="mobile" placeholder="Entrer votre numéro de téléphone"></td>
+                </tr>
+                <tr>
+                    <td><label for="subject">Sujet*</label></td>
+                    <td><input type="text" name="subject" id="subject" placeholder="Entrer le sujet de votre message"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message*</label></td>
+                    <td><textarea name="message" id="message" placeholder="Entrer votre message ici..." rows="10" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Envoyer le message</button></td>
+                    <td><button type="button">Vider</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="./main.js"></script>
+      </p>
+      <footer><a href="https://www.facebook.com/chaima.gamoun/">Facebook</a> <a href="https://www.linkedin.com/in/chayma-gamaoun-778a871b5/">LinkedIn</a> <a href="https://www.instagram.com/">Instagram</a>  </footer>
+</body>
+</html>
